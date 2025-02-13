@@ -1,9 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2025-02-13T16:19:32.687Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="24.2.7" etag="7MPB-osO54d6YoxJLWy9" type="github">
+<mxfile host="app.diagrams.net" modified="2025-02-13T16:54:43.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" etag="E05On-VDPH-1CgvjID3i" version="24.2.7" type="github">
   <diagram name="Page-1" id="aA9Qk1lZxE92sEQ_ZznC">
-    <mxGraphModel>
+    <mxGraphModel dx="872" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-1" value="Journey" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="110" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-3" value="Journey ID&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Start date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;End date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fLBuaxmm3Sn3-o9sM9lF-1">
+          <mxGeometry x="15" y="35" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-5" value="Ship" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="55" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-6" value="Ship ID&lt;div&gt;Name&lt;/div&gt;&lt;div&gt;Type&lt;/div&gt;&lt;div&gt;year built&lt;/div&gt;&lt;div&gt;capacity&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="fLBuaxmm3Sn3-o9sM9lF-5">
+          <mxGeometry x="20" y="20" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fLBuaxmm3Sn3-o9sM9lF-9" target="fLBuaxmm3Sn3-o9sM9lF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fLBuaxmm3Sn3-o9sM9lF-9" target="fLBuaxmm3Sn3-o9sM9lF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-9" value="Involvement" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="85" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-12" value="Viking ID&lt;div&gt;Name&lt;/div&gt;&lt;div&gt;Rank&lt;/div&gt;&lt;div&gt;Birth&lt;/div&gt;&lt;div&gt;Skillset&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;dx=29;dy=20;" vertex="1" parent="1">
+          <mxGeometry x="271.25" y="380" width="127.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fLBuaxmm3Sn3-o9sM9lF-13" target="fLBuaxmm3Sn3-o9sM9lF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-13" value="Participation" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="fLBuaxmm3Sn3-o9sM9lF-14" target="fLBuaxmm3Sn3-o9sM9lF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-14" value="Leader" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.703;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fLBuaxmm3Sn3-o9sM9lF-14" target="fLBuaxmm3Sn3-o9sM9lF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.147;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fLBuaxmm3Sn3-o9sM9lF-13" target="fLBuaxmm3Sn3-o9sM9lF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-20" value="1,N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-22" value="0,1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-23" value="0,N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="85" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fLBuaxmm3Sn3-o9sM9lF-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-24" value="Raid Id&lt;div&gt;Target location&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-27" value="Battle ID&lt;div&gt;Opposing force&lt;/div&gt;&lt;div&gt;Location&lt;/div&gt;&lt;div&gt;dead Vikings&lt;/div&gt;&lt;div&gt;outcome&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="130" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-28" value="Tresure ID&lt;div&gt;type&lt;/div&gt;&lt;div&gt;number of items&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="140" height="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
