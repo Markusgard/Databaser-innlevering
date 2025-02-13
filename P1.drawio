@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2025-02-13T17:29:01.239Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" etag="2oNoZTdLkXImvql8FIiJ" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2025-02-13T17:32:21.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" etag="dzmu0gsAan8I1wxQxAYu" version="24.2.7" type="github">
   <diagram name="Page-1" id="aA9Qk1lZxE92sEQ_ZznC">
     <mxGraphModel dx="1248" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,14 +67,14 @@
         <mxCell id="fLBuaxmm3Sn3-o9sM9lF-23" value="0,N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="85" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fLBuaxmm3Sn3-o9sM9lF-24" target="fLBuaxmm3Sn3-o9sM9lF-28">
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fLBuaxmm3Sn3-o9sM9lF-24" target="fLBuaxmm3Sn3-o9sM9lF-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fLBuaxmm3Sn3-o9sM9lF-24" value="Raid Id&lt;div&gt;Target location&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="210" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="fLBuaxmm3Sn3-o9sM9lF-28" value="Tresure ID&lt;div&gt;type&lt;/div&gt;&lt;div&gt;number of items&lt;/div&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="340" width="150" height="110" as="geometry" />
+          <mxGeometry x="90" y="400" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="fLBuaxmm3Sn3-o9sM9lF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fLBuaxmm3Sn3-o9sM9lF-29">
           <mxGeometry relative="1" as="geometry">
@@ -101,8 +101,8 @@
         </mxCell>
         <mxCell id="fLBuaxmm3Sn3-o9sM9lF-45" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="390" as="sourcePoint" />
-            <mxPoint x="220" y="390" as="targetPoint" />
+            <mxPoint x="120" y="450" as="sourcePoint" />
+            <mxPoint x="200" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fLBuaxmm3Sn3-o9sM9lF-51" value="Vikings" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -130,7 +130,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fLBuaxmm3Sn3-o9sM9lF-72" value="Treasure" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="145" y="340" width="70" height="30" as="geometry" />
+          <mxGeometry x="130" y="400" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-73" value="Obtain" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="320" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.61;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fLBuaxmm3Sn3-o9sM9lF-73" target="fLBuaxmm3Sn3-o9sM9lF-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-76" value="0,N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-77" value="0,1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="360" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fLBuaxmm3Sn3-o9sM9lF-78" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="244.5" as="sourcePoint" />
+            <mxPoint x="200" y="244.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
